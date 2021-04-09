@@ -11,6 +11,8 @@ const Controllers = {
   },
 };
 
-btnToggle.addEventListener("click", () => {
-  Controllers.toggleMenu();
-});
+function init(){
+    btnToggle.addEventListener("click", Controllers.toggleMenu );
+}
+
+window.addEventListener('load', init)
