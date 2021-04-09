@@ -1,0 +1,44 @@
+/* =============== Global =============== */
+
+:root{
+    --green-gradient: linear-gradient(to bottom, #47ad76, #40c27d);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    width: min(90vw, 800vw);
+}
+
+/* =============== Titles =============== */
+
+/* =============== Buttons & Links =============== */
+
+/* =============== Header =============== */
+nav{
+    background: var(--green-gradient);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* =============== Titles =============== */
+
+/* =============== Titles =============== */
+
+/* =============== Titles =============== */
+
+/* =============== Titles =============== */
+
+
+
