@@ -26,6 +26,19 @@ body{
     margin: auto;
 }
 
+.flex-full{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.flex-full-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
 /* =============== Titles =============== */
 p{
     line-height: 1.75rem;
@@ -119,9 +132,14 @@ ul{
 } 
 
 .menu-right a{
+    display: flex;
+}
+
+.icon-media-social{
     background: #fff;
     color: var(--green-pattern);
-    padding: 2px 9px;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 50%;
 }
 
@@ -243,10 +261,6 @@ section, footer{
 }
 
 .item-section-2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
     gap: 2rem;
     -webkit-gap: 2rem;
     -ms-gap: 2rem;
@@ -255,9 +269,6 @@ section, footer{
 }
 
 .box-section-3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 0 2.8rem;
     gap: 3rem;
     -webkit-gap: 3rem;
@@ -267,10 +278,6 @@ section, footer{
 }
 
 .box-section-4{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
     gap: 3rem;
     -webkit-gap: 3rem;
     -ms-gap: 3rem;
@@ -316,10 +323,6 @@ form i{
 /* =============== Footer =============== */
 
 .box-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     gap: 4rem;
     gap: 4rem;
     -webkit-gap: 4rem;
