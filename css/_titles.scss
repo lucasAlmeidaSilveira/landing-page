@@ -1,0 +1,17 @@
+p {
+  line-height: 1.75rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+.box-light,
+.buttons a {
+  color: $gray;
+}

@@ -1,0 +1,47 @@
+nav {
+  background: $green-gradient;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7rem;
+}
+
+.btn-menu-mobile {
+  display: none;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu-left ul {
+  gap: 3rem;
+}
+
+.menu-left ul li a {
+  color: #fff;
+}
+
+.menu-right ul li {
+  padding-left: 1rem;
+}
+
+.menu-right a {
+  display: flex;
+}
+
+.icon-media-social {
+  background: #fff;
+  color: $green-pattern;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+.menu-right i {
+  font-size: 0.8rem;
+}

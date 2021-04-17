@@ -1,0 +1,26 @@
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+form .input-email {
+  padding: 1.25rem;
+  border: none;
+  width: calc(min(400px, 80vw));
+  margin: auto;
+  border-radius: 2px;
+  outline: none;
+}
+
+.input-email::-webkit-input-placeholder {
+  color: $green-pattern;
+  font-size: 1rem;
+}
+
+form i {
+  color: $green-pattern;
+  font-size: 1.2rem;
+  position: relative;
+  left: -280px;
+}

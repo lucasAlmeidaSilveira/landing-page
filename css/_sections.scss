@@ -1,0 +1,72 @@
+section,
+footer {
+  padding: 6.25rem 0;
+}
+
+.box-light {
+  background: $bg-light;
+}
+
+.box-section-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+}
+
+.box-section-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.features-box-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.563rem;
+}
+
+.feature {
+  display: flex;
+  gap: 1.8rem;
+}
+
+.feature span {
+  font-weight: 600;
+}
+
+.section-green {
+  background: $green-gradient;
+  color: #fff;
+}
+
+.box-section-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+.item-section-2 {
+  gap: 2rem;
+
+  text-align: center;
+}
+
+.box-section-3 {
+  padding: 0 2.8rem;
+  gap: 3rem;
+
+  text-align: center;
+}
+
+.box-section-4 {
+  gap: 3rem;
+}
+
+.box-section-4 p {
+  font-size: 20px;
+}
+
+.box-section i {
+  position: relative;
+  top: 0;
+}
