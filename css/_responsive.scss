@@ -36,26 +36,21 @@
   }
 
   .menu-right ul li{
-      padding-left: 0;
+      padding: 0;
   } 
 
   .btn-menu-mobile{
       display: block;
-  }
-
-  .btn-menu-mobile i{
-      float: right;
-      font-size:1.5rem;
-      color: #fff;
+      i{
+        float: right;
+        font-size:1.5rem;
+        color: #fff;
+    }
   }
 
   .menu-left, .menu-right{
       display: none;
       transition: all ease .3s
-  }
-
-  .menu-right ul li{
-      padding: 0;
   }
 
   .active-menu{

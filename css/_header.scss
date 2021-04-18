@@ -18,20 +18,13 @@ ul {
   list-style: none;
 }
 
-.menu-left ul {
-  gap: 3rem;
-}
-
-.menu-left ul li a {
-  color: #fff;
-}
-
-.menu-right ul li {
-  padding-left: 1rem;
-}
-
-.menu-right a {
-  display: flex;
+.menu-left {
+  ul {
+    gap: 3rem;
+  }
+  a {
+    color: #fff;
+  }
 }
 
 .icon-media-social {
@@ -42,6 +35,14 @@ ul {
   border-radius: 50%;
 }
 
-.menu-right i {
-  font-size: 0.8rem;
+.menu-right {
+  li {
+    padding-left: 1rem;
+  }
+  i {
+    font-size: 0.8rem;
+  }
+  a {
+    display: flex;
+  }
 }
